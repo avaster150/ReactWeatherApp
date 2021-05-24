@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+}
+
+.App button {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.App button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.App input {
+  padding: 5px;
+  border: 2px solid black;
+}
