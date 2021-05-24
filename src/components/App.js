@@ -26,7 +26,7 @@ this.setState({
 
 handleCitySubmit = (e) => {
   e.preventDefault()
-  const API = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=964dd6287c68efa3b88a44b68d5bc514&units=metric`;
+  const API = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.value}&appid=964dd6287c68efa3b88a44b68d5bc514&units=metric`;
 
   fetch(API)
   .then(response => {
