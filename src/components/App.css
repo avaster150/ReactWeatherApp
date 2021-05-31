@@ -4,6 +4,8 @@
   align-items: center;
   flex-direction: column;
   width: 400px;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 .App button {
@@ -25,4 +27,70 @@
 .App input {
   padding: 5px;
   border: 2px solid black;
+  margin-bottom: 10px;
+  width: 169px;
+}
+
+.App .img_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .img_container img {
+  position: absolute;
+}
+
+.App .basic_result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.App .basic_result h2 {
+  font-size: 35px;
+}
+
+.App .basic_result h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.App .extended_result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  margin-top: 25px;
+}
+
+.App .extended_result h4 {
+  margin: 5px;
+}
+
+.App .cityName {
+  text-align: center;
+  font-size: 30px;
+}
+
+.App .auto_complete {
+  position: relative;
+  top: -10px;
+  left: -40.5px;
+  background-color: white;
+  color: black;
+  list-style: none;
+  text-shadow: none;
+  border: 2px solid black;
+  border-top: none;
+  padding: 2px;
+  text-align: start;
+  width: 175px;
+  z-index: 100;
+}
+
+.App .auto_complete li {
+  margin-bottom: 2px;
+  cursor: pointer;
 }
