@@ -87,6 +87,8 @@
   padding: 2px;
   text-align: start;
   width: 175px;
+  max-height: 300px;
+  overflow: scroll;
   z-index: 100;
 }
 

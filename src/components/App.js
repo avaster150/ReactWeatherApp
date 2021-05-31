@@ -36,7 +36,7 @@ this.setState({
 })
 
 let suggestions = [];
-if(e.target.value.length > 1) {
+if(e.target.value.length > 0) {
   const regex = new RegExp(`^${e.target.value}`, "i");
   suggestions = City.sort().filter(v => regex.test(v))
 }
